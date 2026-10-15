@@ -1,4 +1,4 @@
 interface:
   display_name: "经纪人带教与咨询"
-  short_description: "经纪人沟通咨询、复盘、演练和话术"
+  short_description: "经纪人带教、沟通复盘与水哥样本分析"
   default_prompt: "我是一名经纪人，请帮我分析这个求职者沟通场景，给出下一步建议和一条简洁、符合已核实信息的话术。"
