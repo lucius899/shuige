@@ -1,0 +1,4 @@
+interface:
+  display_name: "水哥经纪人沟通"
+  short_description: "按水哥样本风格起草经纪人沟通"
+  default_prompt: "请按水哥经纪人沟通 skill，基于我提供的已核实岗位信息起草一条自然、简洁的求职者沟通消息。"
