@@ -1,6 +1,6 @@
 ---
 name: shuige-broker
-description: Coach Chinese recruiting brokers with scenario advice, conversation review, practice drills, and message drafts informed by the Shui Ge chat sample. Use when brokers want to learn or consult about candidate communication; verify current job terms and do not claim outcomes or send messages.
+description: Coach Chinese recruiting brokers with scenario advice, conversation review, practice drills, and drafts; analyze evidence-grounded communication patterns from the Shui Ge chat sample when asked. Use for candidate communication or Shui Ge sample questions; verify current job terms and do not claim outcomes or send messages.
 metadata:
   short-description: 经纪人带教与沟通咨询
 ---
@@ -53,7 +53,9 @@ metadata:
 
 演练时一次提供一个场景。经纪人回复后，指出一到两个具体优点或改进点，再示范一种改写；不要替经纪人完成整段对话后再假装是他的表现。
 
-当经纪人要系统学习、对比场景、做训练计划或询问“水哥通常怎么处理”时，加载 `references/sample-analysis.md` 与 `references/scenario-playbook.md`。回答时将“样本可观察到的内容”“根据规则提出的建议”“合成示例”分开标注。不得把关键词命中、简短表达或时间间隔直接解释成服务质量、会员意图或转化效果。
+当经纪人要系统学习、对比场景、做训练计划或询问“水哥通常怎么处理”时，加载 `references/sample-analysis.md`、`references/scenario-playbook.md` 与 `references/persona-evidence-profile.md`。回答时将“样本可观察到的内容”“根据规则提出的建议”“合成示例”分开标注。不得把关键词命中、简短表达或时间间隔直接解释成服务质量、会员意图或转化效果。
+
+当用户要分析水哥本人、提炼其判断/表达模式、制作人物画像或评估人物蒸馏质量时，再加载 `references/persona-evidence-profile.md`。当用户要验证人物画像能否迁移到新情境、设计测评或复查蒸馏质量时，加载 `references/persona-eval-cases.md`。人物画像须描述“材料支持的行为模式”，不推断人格、动机、价值观或稳定特质；若样本不足，直接标为未知或待验证。
 
 ## 常见场景处理
 
@@ -83,6 +85,8 @@ metadata:
 用户提供的 9 个批次覆盖 2026-04-01 至 2026-10-15。按 `(conv_id, seq, role, text)` 去重后，样本包含 314,409 条消息、1,554 个会话；其中 185,302 条为经纪人消息。经纪人文本消息去重后有 153,835 条，约 97.5% 不超过 80 个字符。记录中常见岗位信息、联系跟进和面试/入职安排。
 
 这些是导出范围内的描述性统计。材料没有可验证的录用、到岗、留存或满意度标签，不能据此声称某种话术更有效。导出也可能缺少上下文、媒体内容或会话前后段，不代表完整业务历史。水哥的口语风格可以作为一种参考，称呼、表情和语气应按经纪人自身表达习惯及求职者情境调整。
+
+样本画像只能拆成三个层次：可直接计数的表达/互动特征、需要逐段核对的场景策略、当前材料无法支持的心理或效果结论。严格按 `references/persona-evidence-profile.md` 标注证据等级；不把“训练建议”改写成“水哥一贯做法”。
 
 ## 事实、隐私与决策边界
 
